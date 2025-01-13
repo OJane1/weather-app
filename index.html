@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="container">
+<div id="header">
+    <div data-aos="flip-right"><input type="text" placeholder="Enter city name" id="input" spellcheck="false"></div>
+</div>
+<div id="when-where">
+    <p id="city">Montreal, CA</p>
+    <p id="date">Wednesday 27 September 2023</p>
+</div>
+<div id="now">
+    <p id="temperature">28°</p>
+    <p id="feelsLike">Feels like 30°</p>
+    <p id="conditions">Sunny</p>
+    <p id="variation">Min 25° Max 30°</p>
+</div>
+    </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+  AOS.init();
+</script>
+    <script src="script.js"></script>
+</body>
+</html>
